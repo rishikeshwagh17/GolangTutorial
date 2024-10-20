@@ -1,0 +1,1 @@
+This is the text related to file working in golang

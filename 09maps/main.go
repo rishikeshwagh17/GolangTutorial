@@ -13,14 +13,14 @@ func main() {
 	languages["RB"] = "ruby"
 	languages["PY"] = "python"
 
-	fmt.Println("List of all languages",languages)
-	fmt.Println("JS shorts for ",languages["JS"])
+	fmt.Println("List of all languages", languages)
+	fmt.Println("JS shorts for ", languages["JS"])
 
 	delete(languages, "RB")
 	fmt.Println(languages)
 
-	//loops in golang 
-	for _,value := range languages {
-		fmt.Printf("for the key value is %v \n",value)
+	//loops in golang
+	for _, value := range languages {
+		fmt.Printf("for the key value is %v \n", value)
 	}
 }
